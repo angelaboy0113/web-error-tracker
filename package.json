@@ -1,0 +1,33 @@
+{
+  "name": "@angelaboy/web-error-tracker",
+  "type": "module",
+  "version": "4.2.1",
+  "description": "Lightweight error tracking SDK for JavaScript, React, and Vue applications",
+  "main": "dist/web-error-tracker.cjs.js",
+  "module": "dist/web-error-tracker.esm.js",
+  "browser": "dist/web-error-tracker.umd.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "error",
+    "tracker",
+    "monitor",
+    "sdk",
+    "javascript",
+    "react",
+    "vue",
+    "exception"
+  ],
+  "author": "angelaboy",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^4.9.0",
+    "@rollup/plugin-terser": "^0.4.4"
+  }
+}
